@@ -1,0 +1,192 @@
+.menu a{
+	text-decoration: none;
+	padding: 25px;
+	color: black;
+}
+.menu{
+	text-align: center;
+	position: sticky;
+	background-color: white;
+	width: 100%;
+	padding: 20px;
+	opacity: 0.8;
+	top: 0;
+}
+.hd{
+	background-image: url(polygons.png);
+	padding: 34px 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	text-align: center;
+	padding: 200px 0;
+	background-attachment: fixed;
+}
+.hd a{
+	color: black;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.menu a:hover{
+	background-color: #ccc;
+}
+.company h1{
+	text-align: center;
+}
+.company img{
+	width: 400px;
+	float: right;
+	margin: 30px;
+	margin-top: 0;
+}
+.company{
+	max-width: 1200px;
+	padding: 40px auto;
+	margin: auto;
+}
+.member{
+	display: inline-block;
+	border: 2px solid gray;
+	padding: 20px;
+	margin: 20px 10px;
+	box-shadow: 0px 2px 5px grey;
+}
+.team{
+	text-align: center;
+}
+.member a{
+	text-decoration: none;
+	color: white;
+	background-color: #055b73;
+	padding: 15px;
+	border-radius: 10px;
+	display: block;
+}
+.member p{
+	text-align: left;
+}
+.position{
+	opacity: 0.5;
+}
+.hd a:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+.tarifi{
+	background-color: #616161;
+	min-width: 325px;
+	margin: auto;
+}
+.tarif{
+	display: inline-block;
+	background-color: white;
+	padding: 0;
+	margin: 10px;
+	width: 30%;
+	vertical-align: middle;
+	min-width: 325px;
+	margin: auto;
+	padding: 10px;
+}
+.tarif li {
+  list-style-type: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  padding: 16px;
+}
+.tarif-name{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.tarif-name.abc{
+	background-color: #055b73;
+	padding: 48px 0;
+}
+.tarif li:last-child{
+	background-color: #f1f1f1;
+}
+.important{
+	font-weight: bolder;
+}
+.tarif a{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 12px 24px;
+	border-radius: 10px;
+}
+.tarif a:hover{
+	background-color: white;
+	color: black;
+}
+.tarifi h2{
+	color: white;
+}
+
+.tarifi {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.tarifi> p{
+	color: white;
+}
+.periud, .rubli{
+	color: black;
+	font-weight: bolder;
+}
+.team p{
+	color: black;
+}
+.contacti h2{
+	text-align: center;
+}
+.contacti p{
+	text-align: center;
+}
+.contacti{
+	background-color: #f1f1f1;
+	padding-bottom: 40px;
+}
+.as{
+	background-image: url(address.png);
+}
+.a1{
+	background-repeat: no-repeat;
+	padding: 10px 25px;
+	background-position: left center;
+}
+.a2{
+	background-image: url(phone.png);
+}
+.a3{
+	background-image: url(mail.png);
+}
+input{
+	display: block;
+	width: 95%;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+}
+input[type=submit]{
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+	width: auto;
+	margin: auto;
+}
+#fouter{
+	background-color: black;
+	color: white;
+}
+body{
+	padding-top: 1px;
+	margin: 0;
+}

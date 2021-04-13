@@ -1,0 +1,26 @@
+@media(max-width: 1025px){
+	.hd{
+		background-attachment: unset;
+	}
+}
+@media(max-width: 575px){
+	.member{
+		width: 300px;
+	}
+	.member img{
+		width: 100%;
+	}
+	.menu a{
+		display: block;
+	}
+	.menu{
+		position: sticky;
+		width: 320px;
+	}
+	input{
+		width: 320px;
+	}
+}
+@media(max-width: 325px){
+
+}
